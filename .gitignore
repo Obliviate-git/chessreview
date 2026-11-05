@@ -1,0 +1,30 @@
+# Python and local development
+.venv/
+venv/
+.dev/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+*.egg-info/
+
+# Builds and locally installed binaries
+build/
+dist/
+*.spec
+*.exe
+*.dll
+engine/
+tools/
+
+# Private data, credentials and local verification
+artifacts/
+*.chessreview
+*.pgn
+!/examples/sample.pgn
+.env
+.env.*
+*.log
+/scripts/
+/需求说明.md
+/验证记录.md

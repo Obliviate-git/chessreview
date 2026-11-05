@@ -1,0 +1,3 @@
+PySide6==6.11.2
+python-chess==1.999
+keyring==25.7.0
